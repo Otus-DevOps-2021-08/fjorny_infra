@@ -1,5 +1,32 @@
 # fjorny_infra
-fjorny Infra repository
-
+### Description 
 Данный репозиторий используется в прохождении курса Otus. DevOps: Инструменты и практики.
-На данный момент выполнено ДЗ из 4 лекции.
+
+### Bastion 
+```
+Подключение к 
+bastion_IP  =  51.250.25.95 
+someinternalhost_IP  =  10.129.0.32
+```
+
+#### Подключение через jump
+``` ssh -i ~/.ssh/ -J fjorny@BASTION_IP fjorny@SOMEINTERNALHOST_IP ```
+
+#### Подключение через конфиг
+
+```
+# ~/.ssh/config
+
+Host bastion
+  User fjorny
+  IdentityFile ~/.ssh/
+  Hostname bastion_IP
+
+Host someinternalhost
+  ProxyJump bastion
+  User fjorny
+  Hostname someinternalhost_IP
+
+```
+
+На данный момент выполнено ДЗ из **5** лекции.
