@@ -9,4 +9,3 @@ ruby -v
 echo bundler
 bundler -v
 
-

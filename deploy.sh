@@ -14,4 +14,3 @@ cd ./reddit && bundle install
 echo Запускаем приложение
 puma -d 
 
-

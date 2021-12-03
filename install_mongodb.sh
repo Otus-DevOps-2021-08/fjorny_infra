@@ -14,4 +14,3 @@ sudo systemctl start mongod
 echo Версия mongod
 mongod --version
 
-

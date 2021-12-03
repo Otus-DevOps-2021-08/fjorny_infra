@@ -10,3 +10,4 @@ yc compute instance create \
  --zone ru-central1-a \
  --metadata-from-file user-data=create-reddit-done.yaml
 
+
