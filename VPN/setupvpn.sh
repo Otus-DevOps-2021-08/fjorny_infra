@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 echo "deb [trusted=yes]  http://repo.mongodb.org/apt/ubuntu focal/mongodb-org/4.4 multiverse" > /etc/apt/sources.list.d/mongodb-org-4.4.list
 echo  "deb http://repo.pritunl.com/stable/apt focal main"  > /etc/apt/sources.list.d/pritunl.list

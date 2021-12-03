@@ -28,5 +28,10 @@ Host someinternalhost
   Hostname someinternalhost_IP
 
 ```
+### redditappvm
+```
+testapp_IP = 51.250.7.137
+testapp_port = 9292
 
-На данный момент выполнено ДЗ из **5** лекции.
+```
+На данный момент выполнено ДЗ из **6** лекции.
