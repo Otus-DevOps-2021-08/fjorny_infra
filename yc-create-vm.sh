@@ -9,3 +9,4 @@ yc compute instance create \
  --metadata serial-port-enable=1 \
  --ssh-key ~/.ssh/id_rsa.pub \
  --zone ru-central1-a
+
