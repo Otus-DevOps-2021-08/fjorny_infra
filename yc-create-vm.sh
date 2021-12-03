@@ -10,4 +10,3 @@ yc compute instance create \
  --ssh-key ~/.ssh/id_rsa.pub \
  --zone ru-central1-a
 
-
