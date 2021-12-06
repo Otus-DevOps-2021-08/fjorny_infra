@@ -1,6 +1,6 @@
 {
-    "folder_id": "0000000000000000",
-    "service_account_key_file": "/home/fjorny/key.json",
-    "subnet_id": "000000000000000000",
-    "zone": "e2ltotcikujvfjnc3cit"
+    "folder_id" : "0000000000000000",
+    "service_account_key_file" : "key.json",
+    "subnet_id" : "enp5uls9v1dn2ghvqgus",
+    "zone" : "b0cas5s5d2nvl7tsovio"
 }
