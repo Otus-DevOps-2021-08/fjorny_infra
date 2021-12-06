@@ -9,8 +9,8 @@
             "image_family": "reddit-base",
             "ssh_username": "ubuntu",
             "use_ipv4_nat": true,
-            "subnet_id": "{{user `subnet_id`}}",
-            "zone": "{{user `zone`}}",
+            "subnet_id": "enp5uls9v1dn2ghvqgus",
+            "zone": "b0cas5s5d2nvl7tsovio",
             "platform_id": "standard-v1"
         }
     ],
