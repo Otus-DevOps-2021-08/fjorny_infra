@@ -4,13 +4,11 @@
             "type": "yandex",
             "service_account_key_file": "{{user `service_account_key_file`}}",
             "folder_id": "{{user `folder_id`}}",
-            "source_image_family": "ubuntu-1604-lts",
+            "source_image_family": "{{user `source_image_family`}}",
             "image_name": "reddit-base-{{timestamp}}",
             "image_family": "reddit-base",
             "ssh_username": "ubuntu",
             "use_ipv4_nat": true,
-            "subnet_id": "enp5uls9v1dn2ghvqgus",
-            "zone": "b0cas5s5d2nvl7tsovio",
             "platform_id": "standard-v1"
         }
     ],
