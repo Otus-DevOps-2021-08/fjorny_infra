@@ -34,4 +34,12 @@ testapp_IP = 51.250.7.137
 testapp_port = 9292
 
 ```
-На данный момент выполнено ДЗ из **6** лекции.
+### Packer
+Posle predydushego zadaniya prishlos' peresest' na linux
+```
+* Smenil repo mongo
+* namuchalsya s zone & subnet
+* chego-to eshe nadelal
+```
+
+На данный момент выполнено ДЗ из **7** лекции.
