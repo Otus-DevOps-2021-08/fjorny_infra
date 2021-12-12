@@ -13,7 +13,7 @@ resource "yandex_compute_instance" "app" {
     memory = 2
     }  
   metadata = {
-  ssh-keys = "ubuntu:${file("var.public_key_path")}"
+  ssh-keys = "ubuntu:${file(var.public_key_path)}"
   }
   boot_disk {
     initialize_params {
