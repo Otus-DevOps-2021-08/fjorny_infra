@@ -23,3 +23,4 @@ variable "subnet_id" {
 variable "private_key_path" {
   description = "Path to prv key ssh"
 }
+
