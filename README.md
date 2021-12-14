@@ -41,5 +41,7 @@ Posle predydushego zadaniya prishlos' peresest' na linux
 * namuchalsya s zone & subnet
 * chego-to eshe nadelal
 ```
+### Terraform
+Porabotali s vars
 
-На данный момент выполнено ДЗ из **7** лекции.
+На данный момент выполнено ДЗ из **8** лекции.
