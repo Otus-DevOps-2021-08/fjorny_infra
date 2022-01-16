@@ -6,22 +6,19 @@ variable "folder_id" {
 }
 variable "zone" {
   description = "Zone"
-  default ="ru-central1-a"
+  default = "ru-central1-a"
 }
 variable "public_key_path" {
+  
   description = "Path to the public key used for ssh access"
 }
 variable "service_account_key_file" {
-  description = "service key"
+  description = "key.json"
 }
-variable "image_id" {
-  description = "image base reddit"
+variable "private_key" {
+  description = "path to private key"
 }
-variable "subnet_id" {
-  description = "Subnet"
+variable "user_id" {
+  description = "service user ID"
 }
-variable "private_key_path" {
-  description = "Path to prv key ssh"
-}
-
 
