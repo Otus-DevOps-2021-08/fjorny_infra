@@ -5,31 +5,22 @@ resource "yandex_compute_instance" "db" {
   }
 
   resources {
-    cores  = 2
+    cores  = 1
     memory = 2
   }
 
   boot_disk {
     initialize_params {
-      image_id = var.image_id
+      image_id = var.db_disk_image
     }
   }
 
   network_interface {
-    subnet_id = var.subnet_id
+    subnet_id = yandex_vpc_subnet.app-subnet.id
     nat = true
   }
 
   metadata = {
-    ssh-keys = "ubuntu:${file(var.public_key_path)}"
-  }
-
-  connection {
-    type     = "ssh"
-    user     = "ubuntu"
-    private_key  = file(var.private_key_path)
-    host     = self.network_interface.0.nat_ip_address
+  ssh-keys = "ubuntu:${file(var.public_key_path)}"
   }
 }
-
-
