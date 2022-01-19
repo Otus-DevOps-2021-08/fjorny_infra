@@ -8,4 +8,4 @@ service_account_key_file = "~/servicekey.json"
 public_key_path = "~/.ssh/id_rsa.pub"
 app_disk_image = "fd81rtu0jo8s1jamuja2"
 db_disk_image = "fd8ersgkm0gi4h4mpk6l"
-user_id = "user"
+
