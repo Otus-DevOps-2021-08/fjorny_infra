@@ -1,3 +1,5 @@
+---
+
 - name: Create users
   hosts: all
   become: true
@@ -13,5 +15,3 @@
         groups: "{{ item.value.groups | default(omit) }}"
       with_dict: "{{ credentials.users }}"
 
-
-      
